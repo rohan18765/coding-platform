@@ -1,6 +1,9 @@
 
 # 🚀 Interactive Coding Platform API (LeetCode Clone)
 
+[![Postman Docs](https://img.shields.io/badge/Postman-API_Docs-orange?style=for-the-badge&logo=postman)](INSERT_YOUR_POSTMAN_LINK_HERE)
+[![Video Demo](https://img.shields.io/badge/YouTube-Video_Demo-red?style=for-the-badge&logo=youtube)](INSERT_YOUR_VIDEO_LINK_HERE)
+
 A scalable backend system for a coding platform that allows users to solve problems, submit code, and track their performance.
 
 ## ✨ Features
@@ -15,17 +18,18 @@ A scalable backend system for a coding platform that allows users to solve probl
 * **Tools:** Postman (API Testing)
 
 ## 📁 Project Structure
-   Backend/
+```text
+Backend/
 │── src/
-│ ├── config/ # Database & app configuration
-│ ├── controllers/ # Business logic
-│ ├── middleware/ # Auth & error handling
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ ├── utils/ # Helper functions
-│ └── index.js # Entry point
+│   ├── config/       # Database & app configuration
+│   ├── controllers/  # Business logic
+│   ├── middleware/   # Auth & error handling
+│   ├── models/       # Mongoose schemas
+│   ├── routes/       # API routes
+│   ├── utils/        # Helper functions
+│   └── index.js      # Entry point
 │
-│── .env # Environment variables (not pushed)
+│── .env              # Environment variables (not pushed)
 │── package.json
 │── README.md
 
